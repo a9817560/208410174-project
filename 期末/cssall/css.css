@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+.f {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+/* body {
+    padding: 50px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+.card {
+  margin: 0;
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 50px 0;
+  font-size: 16px;
+  float: left;
+  clear: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 1%;
+}
+.card1 {
+  width: 350px;
+  float: left;
+  clear: left;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  padding: 50px 0;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.card2 {
+  width: 350px;
+  float: left;
+  clear: left;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  padding: 50px 0;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.card3 {
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  float: left;
+  clear: left;
+  padding: 50px 0;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.card4 {
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  float: left;
+  clear: left;
+  padding: 50px 0;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.card_image img {
+  width: 100%;
+}
+
+.card_contacts {
+  padding: 20px;
+}
+
+.card_contacts h2 {
+  margin-bottom: 20px;
+}
+
+table td {
+  padding: 5px;
+}
+
+.card_icons {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  padding: 15px;
+}
+/* Utilities */
+
+.l-grey {
+  color: #ccc;
+}
+
+.d-grey {
+  color: #999;
+}
+.pl-md {
+  padding-left: 30px;
+}
+
+
